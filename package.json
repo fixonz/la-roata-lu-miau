@@ -18,7 +18,6 @@
   },
   "scripts": {
     "start": "node bot/index.js",
-    "serve": "node unified-server.js",
-    "build": "next build"
+    "serve": "node unified-server.js"
   }
 }
