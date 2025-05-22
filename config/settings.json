@@ -1,0 +1,20 @@
+{
+  "adminIds": [123456789],
+  "spinPriceLTC": 0.1,
+  "prizes": [
+    { "name": "Pizza Miau", "description": "O pizza gratis la Miau", "type": "FOOD", "outcome": "basic" },
+    { "name": "Cafea Miau", "description": "O cafea gratis la Miau", "type": "DRINK", "outcome": "common" },
+    { "name": "Desert Miau", "description": "Un desert la alegere la Miau", "type": "DESSERT", "outcome": "rare" },
+    { "name": "Suc Miau", "description": "Un suc gratis la Miau", "type": "DRINK", "outcome": "basic" },
+    { "name": "Fel Principal Miau", "description": "Un fel principal la Miau", "type": "FOOD", "outcome": "gold" },
+    { "name": "Voucher 10%", "description": "Voucher 10% reducere la Miau", "type": "VOUCHER", "outcome": "common" }
+  ],
+  "spinOutcomes": [
+    { "outcome": "lose", "frequency": 15, "probability": 0.15 },
+    { "outcome": "basic", "frequency": 15, "probability": 0.15 },
+    { "outcome": "common", "frequency": 15, "probability": 0.15 },
+    { "outcome": "rare", "frequency": 8, "probability": 0.08 },
+    { "outcome": "gold", "frequency": 4, "probability": 0.04 },
+    { "outcome": "loose", "frequency": 43, "probability": 0.43 }
+  ]
+} 
