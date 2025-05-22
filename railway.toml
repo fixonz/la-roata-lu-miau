@@ -1,6 +1,6 @@
 [build]
 builder = "nixpacks"
-buildCommand = "echo skipping build"
+buildCommand = "npm install"
 
 [deploy]
 startCommand = "npm start" 
